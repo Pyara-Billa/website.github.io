@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding-bottom: 150px;
+}
+
+.topline {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.secondline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.header-text h1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    width: 350px;
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+}
+
+.header-signup{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+}
+
+.head-image {
+    width: 200px;
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:100px;
+}
+
+.mainh2 {
+    font-size: 36px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.section-image {
+    border-radius: 20px;
+    border:4px solid rgb(39, 134, 242);
+    padding:80px;
+}
+
+.text-image {
+    display: flex;
+    justify-content:space-around;
+    gap:30px;
+    text-align:center;
+    align-items:center;
+    color:rgb(114, 114, 114);
+}
+
+article {
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+
+.quote{
+    font-style:italic;
+    color:#1F2937;
+    font-size:36px;
+}
+
+.quote-author{
+    font-weight:900;
+}
+
+.below-article{
+    display:flex;
+    justify-content:space-around;
+    background-color:#3882F6;
+    border-radius:8px;
+}
+
+.below-article-signup{
+    color: white;
+    background-color:#3882F6;
+    font-weight:bold;
+    border:none;
+    border-radius:8px;
+}
+
+footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
