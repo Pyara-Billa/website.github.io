@@ -44,8 +44,9 @@ ul {
 .secondline {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0 200px;
+    /* justify-content: space-around; */
+    gap:40px;
+    padding: 0 237px;
 }
 
 .header-text h1 {
